@@ -1,0 +1,49 @@
+#navbar{
+    flex-direction: column;
+}
+
+li{
+    margin: 0 0.2rem 0.8rem 0.2rem;
+}
+
+#head-h1{
+    font-size: 1.4rem;
+}
+
+#container1{
+    flex-direction: column;
+}
+
+#delivery{
+    width: 15rem;
+    height: 15rem;
+}
+
+#button1{
+    /* padding: 0.3rem; */
+    font-weight: normal;
+}
+
+#container2{
+    padding: 1rem;
+}
+
+.card-img-top{
+    height: 30vw;
+}
+
+footer{
+    justify-content: space-between;
+}
+
+.footer-h3{
+    /* color: wheat; */
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+}
+
+.footer-a{
+    /* list-style: none;
+    color: grey; */
+    padding: 0.2rem;
+}

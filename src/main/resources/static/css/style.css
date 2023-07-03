@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #efefef;
+}
+
+/* Navbar editing */
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(31, 195, 217);
+    /* width: 100%; */
+    opacity: 0.8;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#bt-logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0rem 1.2rem; */
+}
+
+li{
+    list-style: none;
+    margin: 0rem 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: black;
+}
+
+/* Container1 editing */
+
+#container1{
+    background: url(/image/food-back.jpg) no-repeat center center/cover;
+    content: "";
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: -1;
+}
+
+#container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0.7rem;
+}
+
+#head-h1{
+    font-size: 5rem;
+}
+
+#para{
+    width: 50vw;
+}
+
+#button1{
+    margin: 1.6rem;
+    padding: 0.6rem;
+    background-color: yellow;
+    border: none;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Card slider editing*/
+
+#container2{
+    /* background-color: #efefef; */
+    padding: 2rem 0;
+    /* width: 100%;  */
+}
+
+.slide-container{
+    background-color: grey;
+    border-radius: 0.3rem;
+    padding: 4rem;
+    width: 70vw;
+    margin: auto;
+}
+
+ /* */
+
+.card{
+    background-color: #fff;
+    width: 23vw;
+    border-radius: 0.4rem;
+    margin: 0rem 2rem;
+}
+
+.image-content{
+    /* background-color: #7153db;  */
+    background-color: rgb(31, 195, 217);
+    border-radius: 0.4rem 0.4rem 0 1.8rem;
+}
+
+.card-content{
+    margin-top: 0.6rem;
+}
+
+.image-content,.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img{
+    width: 6rem;
+    height: 6rem;
+    /* border-radius: 2rem;  */
+}
+
+.button{
+    /* background-color: #7153db;  */
+    background-color: rgb(31, 195, 217);
+    color: #FFF;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    margin: 1.6rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #4b25d4;
+}
+
+
+/* Container 3 editing */
+
+#container3{
+    /* background-color: #efefef; */
+    display: flex;
+    flex-direction: column;
+}
+
+.part{
+    background-color: rgb(154, 213, 214);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 6rem;
+    padding: 2rem;
+    border-radius: 0.4rem;
+}
+
+#detail{
+    width: 40vw;
+    text-align: center;
+}
+
+.h1-3{
+    font-size: 4rem;
+}
+
+/* Footer editing */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 2rem;
+}
+
+.footer-part{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-logo{
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer-h3{
+    color: wheat;
+    margin-bottom: 1rem;
+}
+
+.footer-a{
+    list-style: none;
+    color: grey;
+    padding: 0.6rem;
+}
+
+.footer-a:hover{
+    color: wheat;
+}
+

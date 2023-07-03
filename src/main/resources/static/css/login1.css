@@ -1,0 +1,14 @@
+h2{
+    margin-bottom: 0rem;
+}
+
+form{
+    width: 85vw;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+.btn{
+    width: 30vw;
+    /* margin: auto; */
+}

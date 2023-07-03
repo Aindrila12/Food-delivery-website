@@ -1,0 +1,70 @@
+#navbar{
+    flex-direction: column;
+}
+
+li{
+    margin: 0 0.1rem 0.8rem 0.6rem;
+}
+
+#head-h1{
+    font-size: 1.4rem;
+}
+
+#container1{
+    flex-direction: column;
+}
+
+#delivery{
+    width: 15rem;
+    height: 15rem;
+}
+
+#button1{
+    /* padding: 0.3rem; */
+    font-weight: normal;
+}
+
+.slide-container{
+    width: 50vw;
+    /* padding: 1rem; */
+}
+
+.card-img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.card{
+    width: 40vw;
+    margin: 0rem 0.7rem;
+}
+
+.button{
+    padding: 0.2rem;
+    margin: 1.6rem 0.5rem;
+}
+
+.part{
+    flex-direction: column;
+    margin: 2rem 0.4rem;
+}
+
+.h1-3{
+    font-size: 2rem;
+}
+
+footer{
+    justify-content: space-between;
+}
+
+.footer-h3{
+    /* color: wheat; */
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+}
+
+.footer-a{
+    /* list-style: none;
+    color: grey; */
+    padding: 0.2rem;
+}
